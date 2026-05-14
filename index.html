@@ -3,7 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Undangan Pernikahan – Zulfa & Hilmi</title>
+  <title>Undangan Pernikahan – Zulfa & Kilmi</title>
+
+  <meta property="og:title" content="Undangan Pernikahan Zulfa & Kilmi">
+  <meta property="og:description" content="Kami mengundang Bapak/Ibu/Saudara/i untuk hadir di acara pernikahan kami">
+  <meta property="og:image" content="https://i.ibb.co.com/qLxszf5K/6.jpg">
+  <meta property="og:url" content="https://wedding-zulfa-kilmi.vercel.app/">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary_large_image">
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -721,7 +729,7 @@
   </div>
   <div class="mt-8 text-center">
     <p class="font-cinzel text-gold text-sm tracking-widest uppercase opacity-80">Memuat Undangan</p>
-    <p class="font-cormorant text-gold-light text-base mt-2 italic opacity-50">Zulfa & Hilmi</p>
+    <p class="font-cormorant text-gold-light text-base mt-2 italic opacity-50">Zulfa & Kilmi</p>
   </div>
 </div>
 
@@ -822,7 +830,7 @@
       </p>
       <h1 class="font-cormorant italic text-gold-light font-bold leading-tight reveal zoom-in delay-2"
           style="font-size:clamp(36px,6vw,42px); text-shadow: 0 0 40px rgba(212,175,55,0.5);">
-        Zulfa &amp; Hilmi
+        Zulfa &amp; Kilmi
       </h1>
     </div>
 
@@ -868,7 +876,7 @@
             style="font-size:clamp(40px,8vw,48px); text-shadow:0 0 30px rgba(212,175,55,0.5); line-height:1; margin:0;">
           Zulfa
           <div style="color:var(--gold); opacity:0.7; font-family:'Cormorant Garamond',serif; font-style:italic; font-size:28px; line-height:1; margin:6px 0;">&</div>
-          Hilmi
+          Kilmi
         </h3>
         <p class="font-cormorant font-bold text-gold text-lg reveal zoom-in delay-3" style="margin-top:6px; line-height:1;">
           06 . 06 . 2026
@@ -1316,7 +1324,7 @@
       <p class="font-poppins text-gold-light text-xs mb-3 reveal zoom-in delay-3" style="opacity:0.6;">Kami Yang Berbahagia</p>
       <h2 class="font-cormorant italic text-gold font-bold reveal zoom-in"
           style="font-size:clamp(22px,6vw,30px); text-shadow:0 0 30px rgba(212,175,55,0.4);">
-        Zulfa &amp; Hilmi
+        Zulfa &amp; Kilmi
       </h2>
       <div class="gold-divider w-40 mx-auto my-1 reveal zoom-in delay-1">
         <span class="gold-divider-icon">
@@ -1575,7 +1583,7 @@ function sendWish() {
   const city = document.getElementById('wish-city').value.trim();
   const msg  = document.getElementById('wish-msg').value.trim();
   if (!name || !msg) { showToast('Lengkapi nama dan ucapan Anda!'); return; }
-  const text = `*Ucapan & Doa untuk Zulfa & Hilmi*\n\n*Dari:* ${name}${city ? ' ('+city+')' : ''}\n\n*Pesan:*\n${msg}\n\n_Dikirim melalui Undangan Digital_`;
+  const text = `*Ucapan & Doa untuk Zulfa & Kilmi*\n\n*Dari:* ${name}${city ? ' ('+city+')' : ''}\n\n*Pesan:*\n${msg}\n\n_Dikirim melalui Undangan Digital_`;
   window.open(`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(text)}`, '_blank');
   addWishCard(name, city, msg);
   document.getElementById('wish-name').value = '';
